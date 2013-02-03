@@ -10,6 +10,7 @@ handlers:
 
 - url: /.*
   script: ledger.application
+  login: required
 
 libraries:
 - name: webapp2
