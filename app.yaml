@@ -9,7 +9,7 @@ handlers:
   static_dir: stylesheets
 
 - url: /.*
-  script: guestbook.application
+  script: ledger.application
 
 libraries:
 - name: webapp2
