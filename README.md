@@ -1,10 +1,6 @@
-# Guestbook
+# LedgerLemur
 
-Guestbook is an example application showing basic usage of Google App
-Engine. Users can read & write text messages and optionaly log-in with
-their Google account. Messages are stored in App Engine (NoSQL)
-High Replication Datastore (HRD) and retrieved using a strongly consistent
-(ancestor) query.
+LedgerLemur is a system for tracking debts among friends.
 
 ## Products
 - [App Engine][1]
