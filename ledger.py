@@ -51,5 +51,5 @@ class Ledger(webapp2.RequestHandler):
 
 application = webapp2.WSGIApplication([
     ('/', MainPage),
-    ('/update', ledger),
+    ('/update', Ledger),
 ], debug=True)
